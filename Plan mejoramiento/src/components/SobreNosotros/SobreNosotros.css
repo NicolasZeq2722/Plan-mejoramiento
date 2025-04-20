@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #626263;
+}
+
+.Container{
+  background: #2A2E35;
+  height: 550px;
+}
+
+.Nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.Titulo{
+  display: flex;
+  align-items: center;
+  width: 40px;
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 5px;
+  text-shadow: 0px 0px 5px black;
+}
+
+.Menu{
+  display: flex;
+  align-items: center;
+  width: 40px;
+  color: whitesmoke;
+  font-size: 15px;
+  gap: 20px;
+  text-shadow: 0px 0px 5px black;
+  margin-right: 60px;
+}
+
+.Boton{
+  background: transparent;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.Boton:hover{
+  background: rgba(245, 245, 245, 0.163);
+}
+
+.Boton1{
+  background: whitesmoke;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.Boton1:hover{
+  background: rgba(245, 245, 245, 0.68);
+}
+
+h2{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  text-shadow: 0px 0px 5px black;
+}
+
+.ContentImag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+img{
+  padding-top: 15px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Texto{
+  text-align: center;
+  color: #b3b6b7;
+  font-size: 20px;
+  margin: 30px;
+}
+
+h3{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 30px;
+}

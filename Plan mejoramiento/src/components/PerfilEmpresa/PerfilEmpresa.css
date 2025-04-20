@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #2A2E35;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.TestimoniosContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2A2E35;
+  min-height: 100vh;
+}
+
+
+.TestimoniosContainer h2 {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  position: relative;
+  text-align: center;
+}
+
+.TestimoniosContainer h2 span{
+  margin-top: 5px;
+  color: #95a5a6;
+  display: block;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.TestimoniosContainer h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #95a5a6;
+  margin: 10px auto;
+}
+
+.Testimonios {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.SeccTestimonio{
+  background: #3A3F47;
+  border: 1px solid #95a5a6;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+} 
+
+.SeccTestimonio p{
+  padding: 10px;
+  color: whitesmoke;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.TestiAutor{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.AutorIm{
+  width: 60px;
+  height: 60px;
+  background: #95a5a6;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.AutorInfo h3{
+  color: whitesmoke;
+}
+
+.AutorInfo p{
+  color: #95a5a6;
+  font-size: 12px;
+}

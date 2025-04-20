@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1c2833 0%, #2A2E35 100%);
+    font-family: Helvetica, sans-serif;
+}
+
+.LoginBox{
+    background: #3A3F47;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.LoginBox h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+.Grupoinput{
+    display: flex;
+    align-items: center;
+    background: #25292f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.Grupoinput input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #f8f8f8;
+    font-size: 14px;
+    width: 100%;
+}
+
+.GrupoInput input::placeholder {
+    color: #95a5a6;
+}
+
+.Chexboxgrupo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Chexboxgrupo input {
+    margin-right: 5px;
+}
+
+.Chexboxgrupo label {
+    color: #fff;
+    font-size: 12px;
+}
+
+.BottonLogin{
+    background: #797d7f;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.BottonLogin:hover {
+    background: #626567;
+}
+
+.OlviContra{
+    display: block;
+    color: whitesmoke;
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.TextIniciar{
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+a{
+    color: whitesmoke;
+    font-size: 11px;
+}
