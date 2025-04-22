@@ -5,9 +5,8 @@ function Inicio() {
 
   return (
     <>
-    <div className='Container'>
-      <div className='NavPrincip'>
-        <div className='Titulo'>
+    <header className='Cabecera'>
+    <div className='Titulo'>
         <h1>Titulo</h1>
         </div>
         <div className='Text'>
@@ -15,6 +14,9 @@ function Inicio() {
             <Link to="/contacto">Contacto</Link>
             <Link to="/sobrenosotros">Sobre Nosotros</Link>
           </div>
+    </header>
+    <div className='Container'>
+      <div className='NavPrincip'>
           <Link to="/login" className='Button'>Login</Link>
         </div>
       <header className='header'>
@@ -41,7 +43,9 @@ function Inicio() {
       <section className='SeccionTxt'>
           <div className='Seccion2'>
             <h4>Texto</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt quo recusandae, neque illo labore fugiat totam doloremque repellat ut cupiditate saepe similique eveniet consequatur dolore, ab placeat. Saepe, cum.</p>
+            <div className='Comentarios'>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt quo recusandae, neque illo labore fugiat totam doloremque repellat ut cupiditate saepe similique eveniet consequatur dolore, ab placeat. Saepe, cum.</p>
+            </div>
             <div className='CircTex'>
             <div className='Circle1'>
               <div className='Circ'></div>
