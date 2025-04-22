@@ -1,6 +1,6 @@
-import './App.css'
+import './SobreNosotros.css'
 
-function App() {
+function SobreNosotros() {
 
 
   return (
@@ -11,13 +11,6 @@ function App() {
         <div className='Titulo'>
           <h1>Titulo</h1>
         </div>
-        <div className='Menu'>
-          <p>Texto</p>
-          <p>Texto</p>
-          <p>Texto</p>
-        </div>
-        <button className='Boton1'>Registrarse</button>
-        <button className='Boton'>Login</button>
       </div>
       <header>
         <div className='TituloHeader'>
@@ -37,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default SobreNosotros

@@ -1,4 +1,5 @@
 import './Login.css';
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -20,7 +21,7 @@ function Login() {
         <p className="TextIniciar">
           Eres nuevo?
         </p>
-        <a href="#">Registrarse</a>
+        <Link to="/registro">Registrarse</Link>
       </div>
     </div>
   );
