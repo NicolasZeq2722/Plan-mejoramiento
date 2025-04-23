@@ -85,6 +85,7 @@ function Inicio() {
         </section>
         </section>
 
+        <footer>
         <section className='UltGenrl'>
         <section  className='UltSecc1'>
           <div className='BOX1'></div>
@@ -95,6 +96,8 @@ function Inicio() {
           <div className='BOX4'></div>
         </section>
         </section>
+        </footer>
+
 
     </>
   )
