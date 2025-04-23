@@ -4,61 +4,72 @@
     padding: 20px;
 }
 
-.NavPrincip{
+.Cabecera{
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
-.Titulo{
-    display: flex;
-    margin-right: 50px;
-    font-size: 11px;
+.Cabecera h1{
+    font-size: 18px;
+    margin-right: 45px;
+    padding-top: 5px;
 }
 
-.Text{
+.Links{
     display: flex;
-    gap: 80px;
-    margin-left: 150px;
+    gap: 15px; 
+    margin-left: 300px;
+    padding-top: 5px;
 }
 
 .Button{
-    background-color: #eff1f2;
-    padding: 5px 10px;
+    display: flex;
+    gap: 15px;
+    background: #e8f8fa;
+    color: black;
+    padding: 0 12px 0 12px;
+    box-shadow: 0 0 5px black;
     border-radius: 5px;
 }
 
-.Button:hover{
-    background: #95a5a6;
+
+.Navegacion{
+    background:#3A3F47;
+    padding: 10px;
+    height: 365px;
+    width: auto;
 }
 
-.header{
-    padding: 90px 0;
-    font-size: 35px;
-    background: #3A3F47;
-    height: 295px;
+.Tx1{
+    padding-top: 98px;
+    font-size: 80px;
+    margin-right: 875px;
 }
 
-.header h2{
-    margin-right: 800px;
-    padding-right: 10px;
-    font-size: 35px;
+.Tx2{
+    font-size: 80px;
+    margin-right: 998px;
 }
 
-.header p{
-    margin-right: 100px;
-    padding: 40px;
-    font-size: 10px;;
-    margin: 0 20px 0 60px;
+.Navegacion p{
+    padding-top: 36px;
+    margin-left: 80px;
+    padding-right: 1050px;
+    font-size: 8px;
+    color: rgb(210, 206, 206);
+    text-wrap: 10px;
 }
+
 
 .SeccionPrin{
     display: flex;
     gap: 20px;
     margin-bottom: 40px;
     margin-left: 42px;
-    height: 220px;
+    height: 190px;
     padding-top: 30px;
 }
 
@@ -66,25 +77,32 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .Columna1 p{
-    margin-left: 25px;
+    margin-left: 90px;
+    font-size: 13px;
+    color:#dbdbdb;
+    margin-right: 10px;
 }
 
 .Columna2{
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .Columna2 p{
-    margin-left: 25px;
+    margin-left: 90px;
+    font-size: 13px;
+    color: #dbdbdb;
+    margin-right: 10px;
 }
 
 .TxtBib{
+    margin-bottom: 10px;
     font-size: 14px;
 }
 
@@ -94,18 +112,21 @@
     background: white;
     border-radius: 70px;
     margin-top: 15px;
+    margin-left: 45px;
 }
 
 .circulo h3{
     padding-top: 4px;
-    margin-left: 40px;
+    margin-left: 43px;
 }
 
 .SeccionTxt{
     background: #25292f;
     display: flex;
     padding-top: 20px;
-    height: 455px;
+    padding-right: 50px;
+    width: 100%;
+    height: 479px;
 }
 
 .Seccion2{
@@ -119,31 +140,56 @@
 
 .Seccion2 h4{
     padding-bottom: 10px;
-    margin-left: 11px;
+    margin-left: 53px;
 }
 
 .Comentarios p{
     font-size: 12px;
-    margin-left: 11px;
-    padding-top: 12px;
+    padding: 10px 190px 0px 56px;
+}
+
+.Circle1 h5{
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-left: 45px;
+}
+
+.Circle2 h5{
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-left: 45px;
+}
+
+.Circle1 p,.Circle2 p{
+    font-size: 10px;
+    color: whitesmoke;
+    margin: 0 100px 0 45px;
+}
+
+.Circ{
+    margin: 20px 0 10px 45px;
+    gap: 20px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.CircTex{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+    margin-left: 12px;
 }
 
 .BOX{
     background: #2A2E35;
     height: 350px;
-    width: 1150px;
-    margin-right: 40px;
-    margin-left: 90px;
+    margin: 10px 20px 0;
+    width: 450px;
     display: flex;
-    justify-content: space-between;
-}
-
-.Box{
-    background: #2A2E35;
-    width: 90px;
-    height: 50px;
-    gap: 40px;
-    margin-top: 355px;
+    justify-content: center;
 }
 
 .Box:hover{
@@ -154,38 +200,21 @@
     background: #95a5a6;
 }
 
-.CircTex{
+.Cajitas{
     display: flex;
-    gap: 10px;
-    padding-top: 40px;
-    margin-left: 12px;
+    gap: 5px;
+    padding-top: 5px;
+    margin-left: 21px;
 }
 
-.Circle1 h5{
-    font-size: 12px;
-    padding-bottom: 5px;
+.Caja{
+    width: 85.5px;
+    height: 70px;
+    background: #2A2E35;
 }
 
-.Circle2 h5{
-    font-size: 12px;
-    padding-bottom: 5px;
-}
-
-.Circle1,.Circle2 p{
-    font-size: 11px;
-    color: whitesmoke;
-}
-
-
-.Circ{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    gap: 20px;
-    background: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 5px black;
+.Caja:hover{
+    background: #95a5a6;
 }
 
 .UltSecc1{
@@ -205,7 +234,7 @@
 }
 
 .BOX1{
-    width: 1000px;
+    width: 910px;
     height: 200px;
     background: #2A2E35;
     margin-top: 25px;
@@ -217,7 +246,7 @@
 }
 
 .BOX2{
-    width: 265px;
+    width: 288px;
     height: 200px;
     background: #2A2E35;
     margin-top: 25px;
@@ -228,7 +257,7 @@
 }
 
 .BOX3{
-    width: 265px;
+    width: 255px;
     height: 200px;
     background: #2A2E35;
 }
@@ -238,7 +267,7 @@
 }
 
 .BOX4{
-    width: 1000px;
+    width: 940px;
     height: 200px;
     background: #2A2E35;
     border-left: 10px solid #3A3F47;
