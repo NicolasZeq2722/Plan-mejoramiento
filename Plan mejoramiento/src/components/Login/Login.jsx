@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 
 function Login() {
   return (
+    <body>
+      <header className='Header'>
+        <div className='Volver'>
+          <Link to="/Inicio">Volver</Link>
+        </div>
+      </header>
     <div className="ContainerLogin">
       <div className="LoginBox">
         <h2>Login</h2>
@@ -24,6 +30,9 @@ function Login() {
         <Link to="/registro">Registrarse</Link>
       </div>
     </div>
+    </body>
+      
+
   );
 }
 

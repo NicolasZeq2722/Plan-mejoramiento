@@ -8,9 +8,6 @@ function SobreNosotros() {
     <body>
     <div className='Container'>
       <div className='Nav'>
-        <div className='Titulo'>
-          <h1>Titulo</h1>
-        </div>
       </div>
       <header>
         <div className='TituloHeader'>

@@ -30,11 +30,14 @@
     gap: 15px;
     background: #e8f8fa;
     color: black;
-    padding: 0 12px 0 12px;
+    padding: 10px;
     box-shadow: 0 0 5px black;
     border-radius: 5px;
 }
 
+.Button :hover{
+    background: #3A3F47;
+}
 
 .Navegacion{
     background:#3A3F47;
@@ -267,7 +270,7 @@
 }
 
 .BOX4{
-    width: 940px;
+    width: 948px;
     height: 200px;
     background: #2A2E35;
     border-left: 10px solid #3A3F47;

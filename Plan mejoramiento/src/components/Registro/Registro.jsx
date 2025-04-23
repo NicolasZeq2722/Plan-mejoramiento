@@ -2,14 +2,13 @@ import './Registro.css';
 
 function Registro() {
   return (
-    <div className="register-container">
+    <body>
+      <div className="register-container">
       <div className="welcome-section">
         <h1>Bienvenido</h1>
         <p>Para unirte a nuestra comunidad por favor inicia sesión con tus datos.</p>
         <button className="welcome-button">Iniciar Sesión</button>
       </div>
-
-
       <div className="form-section">
         <h2>Crear una Cuenta</h2>
         <div className="social-buttons">
@@ -35,6 +34,8 @@ function Registro() {
         </div>
       </div>
     </div>
+    </body>
+    
   );
 }
 
